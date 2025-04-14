@@ -34,6 +34,7 @@ a:hover{
     color: aliceblue;
     height: 30px;
     width: 260px;
+    border-radius: 5px;
 }
 .search{
     background-color: rgb(133, 81, 8);
@@ -64,4 +65,89 @@ p{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     width: 50%;
+}
+.login{
+    height: 350px;
+    width: 270px;
+    background-color: rgb(0, 0, 0, 0.5);
+    float: right;
+    border-radius: 10px;
+    margin: -277px 221px;
+    color: aliceblue;
+}
+.login:hover{
+    height: 350px;
+    width: 290px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 0.5) , rgb(100, 100, 90, 0.5));
+    float: right;
+    border-radius: 10px;
+    margin: -277px 221px;
+    transition: 0.5s;
+    box-shadow: 11px 16px 22px black;
+}
+.log{
+    box-shadow: 6px 4px 24px black ;
+    background-color: transparent;
+    color: aliceblue;
+    height: 30px;
+    width: 239px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.logsub{
+    background-color: rgb(105, 97, 86);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 33px;
+    width: 223px;
+    margin-left: 15px;
+}
+.logsub:hover{
+    background-color: rgb(188, 122, 28);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 33px;
+    width: 223px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.log:hover{
+    box-shadow: 6px 4px 24px black ;
+    background-color: transparent;
+    color: aliceblue;
+    height: 30px;
+    width: 239px;
+    margin-left: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+article{
+    color: rgb(223, 166, 42);
+}
+.link{
+    height: 50px;
+    width: 47px;
+}
+.link:hover{
+    height: 70px;
+    width: 60px;
+    transition: 0.5s;
+}
+.connect{
+    margin-left: 15px;
+}
+.join{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.join:hover{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(189, 126, 43);
+    transition: 0.5s;
 }
