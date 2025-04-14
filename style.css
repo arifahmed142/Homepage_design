@@ -1,0 +1,67 @@
+body{
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header{
+    margin: -8px -8px;
+    height: 70px;
+}
+.logo{
+    padding-top: 41px;
+    padding-left: 100px;
+    height: 120px;
+    width: 120px;
+}
+.main_button{
+    float: right;
+    padding: 17px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 100px;
+}
+a:hover{
+    color: rgb(255, 213, 0);
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.text{
+    box-shadow: 6px 4px 24px black ;
+    background-color: transparent;
+    color: aliceblue;
+    height: 30px;
+    width: 260px;
+}
+.search{
+    background-color: rgb(133, 81, 8);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 33px;
+    width: 73px;
+}
+.search:hover{
+    background-color: rgb(224, 201, 50);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: -7px;
+}
+.para{
+    font-size: 50px;
+    color: yellow;
+}
+.writing{
+    padding-left: 50px;
+}
+.details{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+}
